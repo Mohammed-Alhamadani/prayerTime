@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="prayer.css" />
+    <script async defer src="prayer.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muslim Prayer Times</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="cityNameNew">
+
+        <p id="country"></p>
+        <span id="day"></span>
+      </div>
+      <div>
+        <input type="text" name="" id="inputCity" placeholder="Enter City" />
+        <input type="submit" id="sub" />
+      </div>
+      <hr />
+      <div id="hijri">Date in Hijri</div>
+      <div id="locationElement"></div>
+      <div id="container">
+        <p>Prayer Times For City of</p>
+        <div class="headContainer">
+          <h2 id="city"></h2>
+          <h3 id="mainDate">Date</h3>
+        </div>
+        <div id="Fajr" class="prayer">
+          <div id="header">
+            <p id="head">
+              Fajr<span>(Dawn): </span><span id="timeFajr"></span>
+            </p>
+          </div>
+        </div>
+        <div id="dhuhur" class="prayer">
+          <div id="header">
+            <p id="head">
+              Dhuhur<span>(Afternoon): </span><span id="timeDhuhur"></span>
+            </p>
+          </div>
+        </div>
+        <div id="asr" class="prayer">
+          <div id="header">
+            <p id="head">
+              Asr<span>(Late afternoon): </span><span id="timeAsr"></span>
+            </p>
+          </div>
+        </div>
+        <div id="magreb" class="prayer">
+          <div id="header">
+            <p id="head">
+              Magrib<span>(After sunset): </span><span id="timeMagreb"></span>
+            </p>
+          </div>
+        </div>
+        <div id="ishaa" class="prayer">
+          <div id="header">
+            <p id="head">
+              Isha'a<span>(Night time): </span><span id="timeIshaa"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

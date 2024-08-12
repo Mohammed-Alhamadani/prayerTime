@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    text-align: center;
+    /* background:linear-gradient(45deg, #240165,#05001c); */
+    /* color: white; */
+}
+
+.container{
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/masjid.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+span{
+    font-size: 18px;
+}
+p{
+    font-weight: 400;
+    font-size: 22px; 
+    margin: 0px;
+    color: black;
+}
+
+#hijri{
+    font-weight: 400;
+    font-size: 22px; 
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+}
+#container{
+    position: absolute;
+    background-color: #ff880066;
+    margin-left: 100px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.prayer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    color: black;
+    font-size: 15px;
+    font-weight:400;
+    
+}
+hr{
+    margin: 10px 200px;
+}
+
+#header{
+    height: 50px;
+    width: 100%;
+    
+}
+
+#head{
+    margin-top: 0px;
+    
+}
+
+#time{
+    margin-top: 40px;
+    /* background-color: white; */
+    width: 100%;
+    height: 50px;
+}
+
+#cityName{
+    margin-top: 100px;
+}
+
+#country{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    height: 35px;
+}
+
+#select,#selectCountry{
+    width: 200px;
+    font-size: 15px;
+}
+
+#inputCity,#sub{
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#mainDate{
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+.headContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#ff9500 ;
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        display: block;
+    }
+    .prayer {
+        margin-bottom: 20px;
+    }
+    #header, #time {
+        display: block;
+    }
+    }
